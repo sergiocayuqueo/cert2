@@ -1,55 +1,74 @@
-![Badge en Desarollo](https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green)
+![Badge en Desarrollo](https://img.shields.io/badge/STATUS-EN%20DESARROLLO-green)
 
 <h4 align="center">
-:construction: Under Construction :construction:
+:construction: En Construcción :construction:
 </h4>
 
-## Table of Contents
-1. [General Info](#general-info)
-2. [Technologies](#technologies)
-3. [Installation](#installation)
-4. [Collaboration](#collaboration)
-5. [FAQs](#faqs)
-### General Info
+## Tabla de Contenidos
+1. [Información General](#información-general)
+2. [Tecnologías](#tecnologías)
+3. [Instalación](#instalación)
+4. [Colaboración](#colaboración)
+5. [FAQs](#preguntas-frecuentes)
+
+### Información General
 ***
-Write down the general informations of your project. It is worth to always put a project status in the Readme file. This is where you can add it. 
-### Screenshot
-![Image text](https://www.united-internet.de/fileadmin/user_upload/Brands/Downloads/Logo_IONOS_by.jpg)
-## Technologies
+Este repositorio contiene el código fuente y la configuración para el proyecto XYZ. Actualmente se encuentra en desarrollo.
+
+### Captura de Pantalla
+![Imagen del proyecto](https://www.united-internet.de/fileadmin/user_upload/Brands/Downloads/Logo_IONOS_by.jpg)
+
+## Tecnologías
 ***
-A list of technologies used within the project:
-* [Technologie name](https://example.com): Version 12.3 
-* [Technologie name](https://example.com): Version 2.34
-* [Library name](https://example.com): Version 1234
-## Installation
+Lista de tecnologías utilizadas en el proyecto:
+* [Docker](https://www.docker.com): Versión X.X
+* [Python](https://www.python.org): Versión X.X
+* [Django](https://www.djangoproject.com): Versión X.X
+* [GitHub](https://github.com): Version X.X
+* [Kali Linux](https://www.kali.org): Versión X.X
+
+## Instalación
 ***
-A little intro about the installation. 
-```
-$ git clone https://example.com
-$ cd ../path/to/the/file
-$ npm install
-$ npm start
-```
-Side information: To use the application in a special environment use ```lorem ipsum``` to start
-## Collaboration
+Instrucciones básicas de instalación:
+\`\`\`bash
+$ git clone https://github.com/tu_usuario/proyecto-xyz.git
+$ cd proyecto-xyz
+$ docker-compose build
+$ docker-compose up -d
+\`\`\`
+Para configuraciones específicas, consulta el archivo `.env.example` y renómbralo a `.env` con tus ajustes.
+
+## Colaboración
 ***
-Give instructions on how to collaborate with your project.
-> Maybe you want to write a quote in this part. 
-> It should go over several rows?
-> This is how you do it.
-## FAQs
+Instrucciones para colaborar en el proyecto:
+> "La colaboración es la clave del éxito."
+> - Autor Desconocido
+
+1. Haz un fork del repositorio.
+2. Crea una rama con un nombre descriptivo: \`git checkout -b mi_contribucion\`
+3. Realiza tus cambios y haz commit: \`git commit -am 'Añade nueva funcionalidad'\`
+4. Haz push a la rama: \`git push origin mi_contribucion\`
+5. Abre un pull request en GitHub.
+
+## Preguntas Frecuentes
 ***
-A list of frequently asked questions
-1. **This is a question in bold**
-Answer of the first question with _italic words_. 
-2. __Second question in bold__ 
-To answer this question we use an unordered list:
-* First point
-* Second Point
-* Third point
-3. **Third question in bold**
-Answer of the third question with *italic words*.
-4. **Fourth question in bold**
-| Headline 1 in the tablehead | Headline 2 in the tablehead | Headline 3 in the tablehead |
-|:--------------|:-------------:|--------------:|
-| text-align left | text-align center | text-align right |
+Lista de preguntas frecuentes sobre el proyecto:
+
+1. **¿Pregunta 1?**
+   Respuesta a la pregunta 1 en _cursiva_.
+
+2. **¿Pregunta 2?**
+   Para responder esta pregunta, utiliza una lista no ordenada:
+   * Primer punto
+   * Segundo punto
+   * Tercer punto
+
+3. **¿Pregunta 3?**
+   Respuesta a la pregunta 3 en *cursiva*.
+
+4. **¿Pregunta 4?**
+   | Encabezado 1 | Encabezado 2 | Encabezado 3 |
+   |:-------------|:------------:|-------------:|
+   | Alineado a la izquierda | Alineado al centro | Alineado a la derecha |
+
+Este README está diseñado para proporcionar una introducción rápida y guiar a nuevos colaboradores y usuarios en la configuración y uso del proyecto. ¡Esperamos tus contribuciones y comentarios!
